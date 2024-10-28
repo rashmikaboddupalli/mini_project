@@ -1,0 +1,52 @@
+/* .parent-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.left-half {
+  flex: 1; /* Take up 50% of the space */
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange buttons in a column */
+}
+
+.right-half {
+  flex: 1; /* Take up 50% of the space */
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling if content is too long */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+}
+
+.button-container button {
+  margin: 10px 0; /* Add some spacing between buttons */
+  padding: 10px; /* Add padding for a better click area */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button-container button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.attendance-list {
+  margin-top: 20px; /* Space above the attendance list */
+}
+
+.attendance-list ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.attendance-list li {
+  padding: 5px 0; /* Spacing between items */
+} */

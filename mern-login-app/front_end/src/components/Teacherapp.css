@@ -1,0 +1,96 @@
+/* App.css */
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 200px; /* Adjust the width as needed */
+    background-color: #1f2b3d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.sidebar-button:hover {
+    background-color: #2980b9;
+}
+
+.chatbox {
+    margin-top: auto;
+    background-color: #3b3f45;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Main content area styles */
+.main-content {
+    margin-left: 220px; /* Pushes the main content to the right of the sidebar */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+    padding: 20px;
+}
+
+/* Centered box containing the student list and details */
+.centered-content {
+    width: 60%; /* Adjust this width as needed */
+    max-width: 600px;
+}
+
+/* Search box styles */
+.search-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Display section styles */
+.display-section {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.display-section h3 {
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
